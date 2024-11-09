@@ -148,7 +148,7 @@ class Customer {
     }
 
     public void depositBalance(Account account) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);// taking input
         System.out.print("Enter the amount to deposit: ");
         double depositAmount = scanner.nextDouble();
         account.deposit(depositAmount);
